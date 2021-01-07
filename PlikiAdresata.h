@@ -21,7 +21,7 @@ class PlikiAdresata
     Adresat pobierzDaneAdresata(string daneAdresataOddzielonePionowymiKreskami);
     int pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami);
     string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
-    int PlikiAdresata:: wczytajNumerOstatniegoAdresata();
+    int wczytajNumerOstatniegoAdresata();
 
     public:
         PlikiAdresata(string nazwaPliku)
