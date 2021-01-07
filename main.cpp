@@ -4,26 +4,6 @@
 
 using namespace std;
 
-int _main()
-{
-    Ksiazka ksiazka("Uzytkownicy.txt", "Adresaci.txt");
-    //ksiazka.rejestracjaUzytkownika();
-    cout<<"Poczatkowe idZalogowanego: ";
-    ksiazka.wyswietlZalogowanegoId();
-    cout<<endl;
-    ksiazka.logowanieUzytkownika();
-    cout<<"Koncowe idZalogowanego: ";
-    ksiazka.wyswietlZalogowanegoId();
-    cout<<endl;
-    //ksiazka.dodajNowegoAdresata();
-    //ksiazka.dodajNowegoAdresata();
-    ksiazka.zmienHasloUzytkownika();
-
-
-
-    return 0;
-}
-
 
 
 
