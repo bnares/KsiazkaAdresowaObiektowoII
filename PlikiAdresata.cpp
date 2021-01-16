@@ -341,7 +341,7 @@ int PlikiAdresata:: pobierzZPlikuIdOstatniegoAdresata()
     {
 
 
-        return 1;
+        return 0;
     }
 
     if (daneOstaniegoAdresataWPliku != "")
